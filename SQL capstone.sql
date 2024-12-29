@@ -1,3 +1,5 @@
+create database if not exists amazon;
+use amazon;
 select * from amazon;
 
 ALTER TABLE amazon CHANGE COLUMN `Invoice ID` invoice_id text;
@@ -29,7 +31,8 @@ ALTER TABLE amazon MODIFY COLUMN rating double;
 Select * from amazon;
 -- no null values present in table 
 
--- 1,Adding a new column named timeofday
+-- 1 Feature Engineering 
+,Adding a new column named timeofday
 
 ALTER TABLE amazon
 ADD COLUMN timeofday VARCHAR(15);
