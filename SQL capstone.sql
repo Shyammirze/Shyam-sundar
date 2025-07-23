@@ -396,5 +396,5 @@ GROUP BY branch;
 /*
 for brach 'A' its on "Sunday"
 for brach 'B' its on "Saturday"
-for brach 'C' its on "Tuesday" and "Saturday"
+for brach 'C' its on "Wednesday" and "Saturday"
 */
